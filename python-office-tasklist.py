@@ -13,7 +13,11 @@ def show_tasklist():
     if office_tasklist == None:
         print("Your tasklist ist empty.")
     else:
-        print("Your tasklist:")
-    for task in office_tasklist:
-        print(task)
+        for task in office_tasklist:
+            print("Your tasklist:")
+            print(task)
 show_tasklist
+
+def main():
+    while True:
+        print("\")
