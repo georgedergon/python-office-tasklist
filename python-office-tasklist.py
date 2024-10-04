@@ -8,3 +8,12 @@ def add_task():
     else:
         print("Your tasklist ist empty.")
 add_task()
+
+def show_tasklist():
+    if office_tasklist == None:
+        print("Your tasklist ist empty.")
+    else:
+        print("Your tasklist:")
+    for task in office_tasklist:
+        print(task)
+show_tasklist
